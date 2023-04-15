@@ -11,3 +11,29 @@ body {
     flex-direction: column;
 }
 
+/* Header component */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1.5rem;
+}
+
+#brand {
+    margin-bottom: 1rem;
+    width: 50%
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #888;
+}
+
